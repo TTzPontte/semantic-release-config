@@ -1,4 +1,4 @@
-name: promote-stag-stardust
+name: promote-stag-semantic-release-config
 
 on:
   push:

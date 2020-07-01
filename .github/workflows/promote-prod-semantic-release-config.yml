@@ -1,4 +1,4 @@
-name: promote-prod-stardust
+name: promote-prod-semantic-release-config
 
 on:
   push:
