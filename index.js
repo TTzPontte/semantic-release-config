@@ -14,7 +14,10 @@ const plugins = [
     '@semantic-release/git',
     {
       message,
-      assets: [],
+      assets: [
+        'package.json',
+        'CHANGELOG.md',
+      ],
     },
   ],
 ].filter((plugin) => plugin);
