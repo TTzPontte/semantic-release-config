@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+      - beta
+      - alpha
 
 jobs:
   publish:
@@ -27,6 +29,8 @@ jobs:
 
       - name: Promote production release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         if: ${{ env.GITHUB_TOKEN }}
-        run: npm run build
+        run: |
+          npm install @semantic-release/{changelog,git} --no-save
+          npx semantic-release
