@@ -23,10 +23,7 @@
   ],
   "scripts": {
     "commit": "git-cz",
-    "start": "echo \"running start script\"",
-    "build": "echo \"running build script\"",
-    "test-lint": "echo \"running test-lint script\"",
-    "test-unit": "echo \"running test-unit script\""
+    "test-lint": "echo \"running test-lint script\""
   },
   "dependencies": {},
   "devDependencies": {
