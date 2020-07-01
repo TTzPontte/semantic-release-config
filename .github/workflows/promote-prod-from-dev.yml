@@ -13,16 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      - name: Get actions
-        uses: actions/checkout@v2
-        with:
-          repository: pontte/james
-          ref: master
-          token: ${{ secrets.GH_TOKEN }}
-          path: ./.github/actions/james
-      - name: Run James
-        uses: ./.github/actions/james
+      - uses: actions/setup-node@v1
+      - name: Promote under production version
         env:
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_TOKEN }}
           NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_PUBLISH_TOKEN }}
@@ -30,3 +22,6 @@ jobs:
           GIT_AUTHOR_EMAIL: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_EMAIL }}
           GIT_COMMITTER_NAME: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_NAME }}
           GIT_COMMITTER_EMAIL: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_EMAIL }}
+        run: |
+          npm install @semantic-release/{changelog,git} --no-save
+          npx semantic-release
