@@ -30,6 +30,7 @@ jobs:
       - name: Promote production release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         if: ${{ env.GITHUB_TOKEN }}
         run: |
           npm install @semantic-release/{changelog,git} --no-save
