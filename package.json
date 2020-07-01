@@ -1,17 +1,17 @@
 {
-  "name": "@pontte/stardust",
+  "name": "@pontte/semantic-release-config",
   "version": "0.0.1",
   "private": true,
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pontte/stardust.git"
+    "url": "git+https://github.com/pontte/semantic-release-config.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pontte/stardust/issues"
+    "url": "https://github.com/pontte/semantic-release-config/issues"
   },
-  "homepage": "https://github.com/pontte/stardust#readme",
+  "homepage": "https://github.com/pontte/semantic-release-config#readme",
   "main": "",
   "files": [
     "LICENSE",
