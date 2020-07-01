@@ -1,4 +1,4 @@
-name: promote-prod-from-dev
+name: promote-prod-from-preprod-branch
 
 on:
   push:
