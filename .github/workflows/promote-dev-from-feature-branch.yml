@@ -1,22 +1,22 @@
-name: promote-stag-semantic-release-config
+name: promote-dev-from-feature-branch
 
 on:
   push:
     branches-ignore:
       - master
+      - staging
+      - alpha
+      - beta
       - refs/tags/*
 
 jobs:
   test-lint:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-
       - name: Install dependencies
         run: npm ci
-
       - uses: actions/cache@v1
         with:
           path: ~/.npm
@@ -25,20 +25,16 @@ jobs:
             ${{ runner.os }}-build-node-modules
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-
       - name: Run lint test
         run: npm run test-lint
 
   test-unit:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-
       - name: Install dependencies
         run: npm ci
-
       - uses: actions/cache@v1
         with:
           path: ~/.npm
@@ -47,6 +43,5 @@ jobs:
             ${{ runner.os }}-build-node-modules
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-
       - name: Run unit test
         run: yarn run test-unit
