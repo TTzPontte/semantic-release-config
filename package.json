@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "description": "",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pontte/semantic-release-config.git"
@@ -14,6 +17,7 @@
   "homepage": "https://github.com/pontte/semantic-release-config#readme",
   "main": "",
   "files": [
+    "index.js",
     "LICENSE",
     "CHANGELOG.md",
     "README.md"
