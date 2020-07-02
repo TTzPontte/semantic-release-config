@@ -20,13 +20,13 @@ try {
 
 plugins = [
   ...plugins,
-  '@semantic-release/github',
   [
     '@semantic-release/git',
     {
-      message: `build: promote <%= nextRelease.version %> 📦\n\nDelivery automatically by ${GIT_COMMITTER_NAME} 🤖🛵\n\n[skip ci]`,
+      message: `build: promote <%= nextRelease.version %> 📦\n\nDelivery automatically by ${GIT_COMMITTER_NAME} 🤖🛵`,
     },
   ],
+  '@semantic-release/github',
 ];
 
 module.exports = {
