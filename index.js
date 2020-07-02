@@ -15,7 +15,9 @@ try {
   if (registry) {
     plugins = [...plugins, '@semantic-release/npm'];
   }
-} catch (e) {}
+} catch (e) {
+  console.info('Cannot find publish configuration.');
+}
 
 plugins = [
   ...plugins,
