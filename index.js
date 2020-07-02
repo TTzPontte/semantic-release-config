@@ -20,12 +20,12 @@ try {
 
 plugins = [
   ...plugins,
-  [
-    '@semantic-release/git',
-    {
-      message: `build: promote <%= nextRelease.version %> 📦\n\nDelivery automatically by ${GIT_COMMITTER_NAME} 🤖🛵\n\n[skip ci]`,
-    },
-  ],
+  // [
+  //   '@semantic-release/git',
+  //   {
+  //     message: `build: promote <%= nextRelease.version %> 📦\n\nDelivery automatically by ${GIT_COMMITTER_NAME} 🤖🛵\n\n[skip ci]`,
+  //   },
+  // ],
   '@semantic-release/github',
 ];
 
