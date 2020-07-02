@@ -1,3 +1,10 @@
+# [1.0.0-alpha.6](https://github.com/pontte/semantic-release-config/compare/1.0.0-alpha.5...1.0.0-alpha.6) (2020-07-02)
+
+
+### Performance Improvements
+
+* force bump version to test CI ([7ebcdc0](https://github.com/pontte/semantic-release-config/commit/7ebcdc094257fb3470a097932f256471f9706f0c))
+
 # [1.0.0-alpha.5](https://github.com/pontte/semantic-release-config/compare/1.0.0-alpha.4...1.0.0-alpha.5) (2020-07-02)
 
 
