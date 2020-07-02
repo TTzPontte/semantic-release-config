@@ -1,5 +1,5 @@
 const { resolve } = require('path');
-const { SEMANTIC_RELEASE_CONFIG_BOT_NAME } = process.env;
+const { SEMANTIC_RELEASE_CONFIG_BOT_NAME = 'James' } = process.env;
 
 let plugins = [
   '@semantic-release/commit-analyzer',
