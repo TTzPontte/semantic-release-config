@@ -1,5 +1,5 @@
 const { resolve } = require('path');
-const { SEMANTIC_RELEASE_CONFIG_BOT_NAME } = process.env;
+const { GIT_COMMITTER_NAME } = process.env;
 
 let plugins = [
   '@semantic-release/commit-analyzer',
@@ -24,7 +24,7 @@ plugins = [
   [
     '@semantic-release/git',
     {
-      message: `build: promote <%= nextRelease.version %> 📦\n\nDelivery automatically by ${SEMANTIC_RELEASE_CONFIG_BOT_NAME} 🤖🛵\n\n[skip ci]`,
+      message: `build: promote <%= nextRelease.version %> 📦\n\nDelivery automatically by ${GIT_COMMITTER_NAME} 🤖🛵\n\n[skip ci]`,
     },
   ],
 ];
