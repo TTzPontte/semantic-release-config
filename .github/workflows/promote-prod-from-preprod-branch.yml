@@ -13,10 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v1
       - name: Promote under production version
         env:
-          GH_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_TOKEN }}
           NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_PUBLISH_TOKEN }}
           GIT_AUTHOR_NAME: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_NAME }}
           GIT_AUTHOR_EMAIL: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_EMAIL }}
