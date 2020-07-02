@@ -1,6 +1,6 @@
 # Semantic Release Config 📦
 
-Shared config for Semantic Release.
+A extensible shared configuration to [@semantic-release/semantic-release](https://github.com/semantic-release/semantic-release) 🚀📦
 
 ![](https://github.com/pontte/semantic-release-config/workflows/promote-prod-from-preprod-branch/badge.svg)
 
