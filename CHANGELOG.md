@@ -1,3 +1,36 @@
+# 1.0.0-alpha.1 (2020-07-02)
+
+
+### Bug Fixes
+
+* add missing assets ([cc96939](https://github.com/pontte/semantic-release-config/commit/cc969399e4094773d579d543664f3797c4b5a72d))
+* force bump version to test CI ([9b7238c](https://github.com/pontte/semantic-release-config/commit/9b7238ca8c4b297b5de6cb553816ec92b375662f))
+* force bump version to test CI ([3ba69f0](https://github.com/pontte/semantic-release-config/commit/3ba69f02a21f902ccc481785b75de1bd4e6e1791))
+* force bump version to test CI ([15e38dd](https://github.com/pontte/semantic-release-config/commit/15e38ddb130ac8fb5f31f5d8b66d5f1fe29c8382))
+* force bump version to test CI ([fa8399f](https://github.com/pontte/semantic-release-config/commit/fa8399f932f129439f75a5b45143ded84cf91a99))
+* force bump version to test CI ([4a4318c](https://github.com/pontte/semantic-release-config/commit/4a4318c472be581ce06eccd7368ab532d301da3f))
+* force bump version to test CI ([1d5bcd5](https://github.com/pontte/semantic-release-config/commit/1d5bcd5b97bacd911a78cdd8d0b2344c34168fc2))
+* force bump version to test CI ([ab386f0](https://github.com/pontte/semantic-release-config/commit/ab386f035c465af79db464feb0be63c713f46e22))
+* force bump version to test CI ([1aea218](https://github.com/pontte/semantic-release-config/commit/1aea21838ed71a4f91a37e6212b5771da25c7dc5))
+* i'm really persistent person ([0105450](https://github.com/pontte/semantic-release-config/commit/01054507eb98435e62301b63b1aa0eaf55186338))
+
+
+### Features
+
+* add initial config ([533b8e0](https://github.com/pontte/semantic-release-config/commit/533b8e0381f3d2c5c72bc7ef0f81418320c459f6))
+* force bump version to test CI ([77ed65d](https://github.com/pontte/semantic-release-config/commit/77ed65d7bc96beaec46a236c620bb6f64f8e3ace))
+* force bump version to test CI ([85ce450](https://github.com/pontte/semantic-release-config/commit/85ce450a7dc84fac54033783ed1be8653b353ce5))
+* force bump version to test CI ([15bd093](https://github.com/pontte/semantic-release-config/commit/15bd093c73f50ce96d10000e0afbea145073662a))
+* force bump version to test CI ([faebc13](https://github.com/pontte/semantic-release-config/commit/faebc1336d2b55f70e3b71c35569a42b8fa38a8f))
+* force bump version to test CI ([2773687](https://github.com/pontte/semantic-release-config/commit/2773687f694b2bd662a3d28b2586fbc888ef7f32))
+* force bump version to test CI ([c08044f](https://github.com/pontte/semantic-release-config/commit/c08044f82fb75694c4660ff2c6e5813fbb7d7bc2))
+
+
+### Performance Improvements
+
+* force bump version to test CI ([7ff13d8](https://github.com/pontte/semantic-release-config/commit/7ff13d83f13ad239427bfe1316ab16aa01640276))
+* force bump version to test CI ([cbfe48a](https://github.com/pontte/semantic-release-config/commit/cbfe48a21039e5ae14a7f6efb3e4a904cf927242))
+
 # [1.0.0-alpha.8](https://github.com/pontte/semantic-release-config/compare/1.0.0-alpha.7...1.0.0-alpha.8) (2020-07-02)
 
 
