@@ -1,6 +1,6 @@
 {
   "name": "@pontte/semantic-release-config",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-beta.1",
   "description": "",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
