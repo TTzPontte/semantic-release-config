@@ -1,6 +1,8 @@
 const { resolve } = require('path');
 const { SEMANTIC_RELEASE_CONFIG_BOT_NAME = 'James' } = process.env;
 
+console.log(SEMANTIC_RELEASE_CONFIG_BOT_NAME, 'SEMANTIC_RELEASE_CONFIG_BOT_NAME');
+
 let plugins = [
   '@semantic-release/commit-analyzer',
   '@semantic-release/release-notes-generator',
@@ -24,7 +26,7 @@ plugins = [
   [
     '@semantic-release/git',
     {
-      message: `build: promote <%= nextRelease.version %> 📦\n\nDelivery automatically by ${SEMANTIC_RELEASE_CONFIG_BOT_NAME} 🤖🛵\n\n[skip ci]`,
+      message: `build: promote <%= nextRelease.version %> 📦\n\nDelivery automatically by James 🤖🛵\n\n[skip ci]`,
     },
   ],
 ];
