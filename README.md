@@ -1,4 +1,4 @@
-# Semantic Release Config 🤖🛵
+# Semantic Release Config 📦
 
 ![](https://github.com/pontte/semantic-release-config/workflows/promote-prod-from-preprod-branch/badge.svg)
 
