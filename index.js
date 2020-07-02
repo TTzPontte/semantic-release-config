@@ -26,6 +26,7 @@ plugins = [
       message: `build: promote <%= nextRelease.version %> 📦\n\nDelivery automatically by ${GIT_COMMITTER_NAME} 🤖🛵\n\n[skip ci]`,
     },
   ],
+  '@semantic-release/github',
 ];
 
 module.exports = {

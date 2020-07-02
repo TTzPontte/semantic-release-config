@@ -3,10 +3,6 @@ name: promote-dev-from-feature-branch
 on:
   push:
     branches-ignore:
-      - master
-      - staging
-      - alpha
-      - beta
       - refs/tags/*
 
 jobs:
