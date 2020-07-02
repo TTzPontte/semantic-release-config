@@ -1,7 +1,27 @@
-# Semantic Release Config 🤖
+# Semantic Release Config 🤖🛵
 
-![](https://github.com/pontte/semantic-release-config/workflows/promote-prod-semantic-release-config/badge.svg)
-[![](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+![](https://github.com/pontte/semantic-release-config/workflows/promote-prod-from-preprod-branch/badge.svg)
 
-## Getting Started
+## Install
+
+### yarn
+
+```sh
+yarn add @pontte/semantic-release-config --dev
+```
+
+### npm
+
+```sh
+npm install @pontte/semantic-release-config --save-dev
+```
+
+## Usage
+
+Add package to your `.releaserc.js` or [Semantic Release](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration-file) configuration file.
+
+```js
+module.exports = {
+  extends: ['@pontte/semantic-release-config'],
+};
+```
