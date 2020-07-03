@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/pontte/semantic-release-config/compare/1.0.0...1.0.1) (2020-07-03)
+
+
+### Bug Fixes
+
+* add @ for username ([a2d1ac8](https://github.com/pontte/semantic-release-config/commit/a2d1ac863cd8d907578ad7300a7d50a5ac9e64d4))
+
 # 1.0.0 (2020-07-03)
 
 

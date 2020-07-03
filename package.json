@@ -1,6 +1,6 @@
 {
   "name": "@pontte/semantic-release-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A extensible shared configuration to @semantic-release/semantic-release 🚀📦",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
