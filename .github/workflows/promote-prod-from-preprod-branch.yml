@@ -16,15 +16,38 @@ jobs:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
+
       - uses: actions/setup-node@v1
+
+      - name: Install dependencies
+        env:
+          NPM_CONFIG_USERCONFIG: .npmrc
+          NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_PUBLISH_TOKEN }}
+        run: npm ci
+
+      - uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-node-modules-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-node-modules
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: Generate build
+        env:
+          NPM_CONFIG_USERCONFIG: .npmrc
+          NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_PUBLISH_TOKEN }}
+        run: npm run build
+
       - name: Promote under production version
         env:
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_TOKEN }}
+          GH_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_TOKEN }}
+          NPM_CONFIG_USERCONFIG: .npmrc
           NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_PUBLISH_TOKEN }}
           GIT_AUTHOR_NAME: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_NAME }}
           GIT_AUTHOR_EMAIL: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_EMAIL }}
           GIT_COMMITTER_NAME: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_NAME }}
           GIT_COMMITTER_EMAIL: ${{ secrets.SEMANTIC_RELEASE_CONFIG_BOT_EMAIL }}
-        run: |
-          npm install @semantic-release/{changelog,git} --no-save
-          npx semantic-release
+        run: npx semantic-release

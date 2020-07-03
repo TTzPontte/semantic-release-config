@@ -12,9 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - uses: actions/setup-node@v1
+
       - name: Install dependencies
-        run: npm ci
+        env:
+          NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_PUBLISH_TOKEN }}
+          NPM_CONFIG_USERCONFIG: .npmrc
+        run: npm ci --no-optional
+
       - uses: actions/cache@v1
         with:
           path: ~/.npm
@@ -23,5 +29,9 @@ jobs:
             ${{ runner.os }}-build-node-modules
             ${{ runner.os }}-build-
             ${{ runner.os }}-
+
       - name: Run lint test
+        env:
+          NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_PUBLISH_TOKEN }}
+          NPM_CONFIG_USERCONFIG: .npmrc
         run: npm run test-lint

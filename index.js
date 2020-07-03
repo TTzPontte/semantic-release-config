@@ -12,7 +12,10 @@ try {
   const { publishConfig: { registry } } = require(packagePath);
 
   if (registry) {
-    plugins = [...plugins, '@semantic-release/npm'];
+    plugins = [
+      ...plugins,
+      ['@semantic-release/npm', { tarballDir: 'dist' }],
+    ];
   }
 } catch (e) {
   console.info('Cannot find publish configuration.');
