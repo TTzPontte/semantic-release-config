@@ -1,34 +1,29 @@
-# Stardust Front-End Template
+# Semantic Release Config 📦
 
-Stardust is the next generation of projects of the @pontte. It brings you a entire configuration to start a new project in a button click distance.
+A extensible shared configuration to [@semantic-release/semantic-release](https://github.com/semantic-release/semantic-release) 🚀📦
 
-![](https://github.com/pontte/template-front-end/workflows/promote-prod-stardust/badge.svg)
-[![](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+![](https://github.com/pontte/semantic-release-config/workflows/promote-prod-from-preprod-branch/badge.svg)
 
-## Getting Started
+## Install
 
-You **must change** some information in the `package.json`:
+### yarn
 
-- `name`
-- `description`
-- `files`
-- `homepage`
-- `main`
-- `repository.url`
-- `bugs.url`
-- `homepage`
+```sh
+yarn add @pontte/semantic-release-config --dev
+```
 
-If your project will be a consumable one, don't forget to add distribution folder into `files` and specify `main` file.
+### npm
 
-You **can change** but will be need to change Github Actions workflows:
+```sh
+npm install @pontte/semantic-release-config --save-dev
+```
 
-- `scripts.build`
-- `scripts.test-lint`
-- `scripts.test-unit`
+## Usage
 
-You **can't change**:
+Add package to your `.releaserc.js` or [Semantic Release](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration-file) configuration file.
 
-- `version`
-
-Any other changes in `package.json` or Github Actions workflows **could break automation**. Be careful.
+```js
+module.exports = {
+  extends: ['@pontte/semantic-release-config'],
+};
+```

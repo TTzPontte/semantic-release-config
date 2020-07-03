@@ -1,29 +1,29 @@
 {
-  "name": "@pontte/stardust",
-  "version": "0.0.1",
-  "private": true,
-  "description": "",
+  "name": "@pontte/semantic-release-config",
+  "version": "1.0.0-beta.2",
+  "description": "A extensible shared configuration to @semantic-release/semantic-release 🚀📦",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pontte/stardust.git"
+    "url": "git+https://github.com/pontte/semantic-release-config.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pontte/stardust/issues"
+    "url": "https://github.com/pontte/semantic-release-config/issues"
   },
-  "homepage": "https://github.com/pontte/stardust#readme",
+  "homepage": "https://github.com/pontte/semantic-release-config#readme",
   "main": "",
   "files": [
+    "index.js",
     "LICENSE",
     "CHANGELOG.md",
     "README.md"
   ],
   "scripts": {
     "commit": "git-cz",
-    "start": "echo \"running start script\"",
-    "build": "echo \"running build script\"",
-    "test-lint": "echo \"running test-lint script\"",
-    "test-unit": "echo \"running test-unit script\""
+    "test-lint": "echo \"running test-lint script\""
   },
   "dependencies": {},
   "devDependencies": {
