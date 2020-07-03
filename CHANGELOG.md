@@ -1,9 +1,10 @@
-## [1.0.2](https://github.com/pontte/semantic-release-config/compare/1.0.1...1.0.2) (2020-07-03)
+## [1.0.2-beta.1](https://github.com/pontte/semantic-release-config/compare/1.0.1...1.0.2-beta.1) (2020-07-03)
 
 
 ### Bug Fixes
 
 * add main entry ([1860817](https://github.com/pontte/semantic-release-config/commit/1860817b2d8a9718e823a80518f7fed803500d64))
+* remove tarball dir ([66f63a1](https://github.com/pontte/semantic-release-config/commit/66f63a1f4fa2a1d36e4af82ab28d83f3ef64fbc2))
 
 ## [1.0.1](https://github.com/pontte/semantic-release-config/compare/1.0.0...1.0.1) (2020-07-03)
 
