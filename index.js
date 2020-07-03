@@ -23,7 +23,7 @@ plugins = [
   [
     '@semantic-release/git',
     {
-      message: `build: promote <%= nextRelease.version %> 📦\n\nDelivery automatically by ${GIT_COMMITTER_NAME} 🤖🛵`,
+      message: `build: promote <%= nextRelease.version %> 📦\n\nDelivery automatically by @${GIT_COMMITTER_NAME} 🤖🛵`,
     },
   ],
   '@semantic-release/github',
