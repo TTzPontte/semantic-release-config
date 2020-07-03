@@ -1,3 +1,10 @@
+# [1.0.0-beta.2](https://github.com/pontte/semantic-release-config/compare/1.0.0-beta.1...1.0.0-beta.2) (2020-07-03)
+
+
+### Features
+
+* remove skip key from bot comment ([0bf2811](https://github.com/pontte/semantic-release-config/commit/0bf281162f5476f5854f0405a96df57602772712))
+
 # 1.0.0-beta.1 (2020-07-02)
 
 
