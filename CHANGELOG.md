@@ -1,6 +1,18 @@
 # [1.0.0-beta.2](https://github.com/pontte/semantic-release-config/compare/1.0.0-beta.1...1.0.0-beta.2) (2020-07-03)
 
 
+### Bug Fixes
+
+* force bump version to test CI ([88a6462](https://github.com/pontte/semantic-release-config/commit/88a6462bf41af9b5d2ffcbf83f367b0e31d3f3c3))
+
+
+### Features
+
+* remove skip key from bot comment ([0bf2811](https://github.com/pontte/semantic-release-config/commit/0bf281162f5476f5854f0405a96df57602772712))
+
+# [1.0.0-beta.2](https://github.com/pontte/semantic-release-config/compare/1.0.0-beta.1...1.0.0-beta.2) (2020-07-03)
+
+
 ### Features
 
 * remove skip key from bot comment ([0bf2811](https://github.com/pontte/semantic-release-config/commit/0bf281162f5476f5854f0405a96df57602772712))
