@@ -4,6 +4,16 @@
 ### Bug Fixes
 
 * add main entry ([1860817](https://github.com/pontte/semantic-release-config/commit/1860817b2d8a9718e823a80518f7fed803500d64))
+* remove `semantic-release` as optional dependency ([c40a51b](https://github.com/pontte/semantic-release-config/commit/c40a51bececf45e5e1c328e3af453a956ec30ca1))
+* remove tarball dir ([1c9629b](https://github.com/pontte/semantic-release-config/commit/1c9629b8e33a42870c5520d5fd940817a8f95259))
+* try bump beta version ([d57e9ef](https://github.com/pontte/semantic-release-config/commit/d57e9efb28b98b2b271812629f425747e94eecca))
+
+## [1.0.2-beta.1](https://github.com/pontte/semantic-release-config/compare/1.0.1...1.0.2-beta.1) (2020-07-04)
+
+
+### Bug Fixes
+
+* add main entry ([1860817](https://github.com/pontte/semantic-release-config/commit/1860817b2d8a9718e823a80518f7fed803500d64))
 * remove `semantic-release` as optional dependency ([6d50d18](https://github.com/pontte/semantic-release-config/commit/6d50d18840b9939b30a3029904cf1a6f523b6d76))
 * remove tarball dir ([66f63a1](https://github.com/pontte/semantic-release-config/commit/66f63a1f4fa2a1d36e4af82ab28d83f3ef64fbc2))
 
