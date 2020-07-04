@@ -2,4 +2,4 @@
 
 rm -rf dist
 mkdir dist
-cp -R index.js dist/index.js
+cp -R src/* dist
