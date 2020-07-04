@@ -5,6 +5,10 @@ on:
     branches-ignore:
       - refs/tags/*
 
+env:
+  NPM_TOKEN: ${{ secrets.BOT_REGISTRY_TOKEN }}
+  NPM_CONFIG_USERCONFIG: .npmrc
+
 jobs:
   test-lint:
     if: |
@@ -16,9 +20,6 @@ jobs:
       - uses: actions/setup-node@v1
 
       - name: Install dependencies
-        env:
-          NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_PUBLISH_TOKEN }}
-          NPM_CONFIG_USERCONFIG: .npmrc
         run: npm ci --no-optional
 
       - uses: actions/cache@v1
@@ -31,7 +32,4 @@ jobs:
             ${{ runner.os }}-
 
       - name: Run lint test
-        env:
-          NPM_TOKEN: ${{ secrets.SEMANTIC_RELEASE_CONFIG_PUBLISH_TOKEN }}
-          NPM_CONFIG_USERCONFIG: .npmrc
         run: npm run test-lint
