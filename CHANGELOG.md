@@ -1,3 +1,10 @@
+## [1.0.2-beta.2](https://github.com/pontte/semantic-release-config/compare/1.0.2-beta.1...1.0.2-beta.2) (2020-07-04)
+
+
+### Bug Fixes
+
+* change filename ([aadde1e](https://github.com/pontte/semantic-release-config/commit/aadde1e8189210f29d5816839c32d422ff98e142))
+
 ## [1.0.2-beta.1](https://github.com/pontte/semantic-release-config/compare/1.0.1...1.0.2-beta.1) (2020-07-04)
 
 
