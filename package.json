@@ -1,7 +1,7 @@
 {
   "name": "@pontte/semantic-release-config",
-  "version": "1.0.2-beta.2",
-  "description": "A extensible shared configuration to @semantic-release/semantic-release 🚀📦",
+  "version": "1.0.2-beta.1",
+  "description": "A extensible shared configuration for Semantic Release.",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -28,14 +28,14 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
-    "@commitlint/config-conventional": "^9.0.1",
+    "@pontte/commitlint-config": "^1.0.0",
     "commitizen": "^4.1.2",
     "commitlint": "^9.0.1",
     "husky": "^4.2.5"
   },
   "peerDependencies": {
     "@commitlint/cli": "^9.0.1",
-    "@commitlint/config-conventional": "^9.0.1",
+    "@pontte/commitlint-config": "^1.0.0",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "commitizen": "^4.1.2",
