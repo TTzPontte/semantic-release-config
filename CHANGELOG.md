@@ -1,3 +1,10 @@
+## [1.1.1-alpha.1](https://github.com/pontte/semantic-release-config/compare/1.1.0...1.1.1-alpha.1) (2020-07-06)
+
+
+### Bug Fixes
+
+* add `tarballDir` for npm distribution ([58bf013](https://github.com/pontte/semantic-release-config/commit/58bf013a253ed19344bbe99e5a645ee4e0afaa52))
+
 # [1.1.0](https://github.com/pontte/semantic-release-config/compare/1.0.1...1.1.0) (2020-07-04)
 
 
