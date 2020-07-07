@@ -13,7 +13,7 @@ try {
 
   if (registry) {
     plugins = [...plugins, ['@semantic-release/npm', {
-      tarballdir: 'dist',
+      tarballDir: 'dist',
     }]];
   }
 } catch (e) {
