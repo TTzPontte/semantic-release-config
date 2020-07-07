@@ -3,6 +3,14 @@
 
 ### Bug Fixes
 
+* force bump version ([14d50ed](https://github.com/pontte/semantic-release-config/commit/14d50ed2cefb078bf5a2c106739f994b05a5296d))
+* remove build script from CI ([b79de25](https://github.com/pontte/semantic-release-config/commit/b79de2581a5a008bfc9948b040228a529427bc70))
+
+## [1.1.1-alpha.3](https://github.com/pontte/semantic-release-config/compare/1.1.1-alpha.2...1.1.1-alpha.3) (2020-07-07)
+
+
+### Bug Fixes
+
 * remove build script from CI ([b79de25](https://github.com/pontte/semantic-release-config/commit/b79de2581a5a008bfc9948b040228a529427bc70))
 
 ## [1.1.1-alpha.2](https://github.com/pontte/semantic-release-config/compare/1.1.1-alpha.1...1.1.1-alpha.2) (2020-07-07)
