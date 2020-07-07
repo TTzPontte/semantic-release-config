@@ -14,17 +14,15 @@
     "url": "https://github.com/pontte/semantic-release-config/issues"
   },
   "homepage": "https://github.com/pontte/semantic-release-config#readme",
-  "main": "dist/index.js",
+  "main": "index.js",
   "files": [
-    "dist/*",
-    "LICENSE",
-    "CHANGELOG.md",
-    "README.md"
+    "dist/*"
   ],
   "scripts": {
     "commit": "git-cz",
     "build": "sh scripts/build",
-    "test-lint": "echo \"running test-lint script\""
+    "test-lint": "echo \"running test-lint script\"",
+    "prepack": "npm run build"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
