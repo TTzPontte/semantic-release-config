@@ -1,3 +1,10 @@
+## [1.1.1-alpha.2](https://github.com/pontte/semantic-release-config/compare/1.1.1-alpha.1...1.1.1-alpha.2) (2020-07-07)
+
+
+### Bug Fixes
+
+* update wrong variable ([d11bfbc](https://github.com/pontte/semantic-release-config/commit/d11bfbcd276aefaa06d52b358347138fe6fdb1c0))
+
 ## [1.1.1-alpha.1](https://github.com/pontte/semantic-release-config/compare/1.1.0...1.1.1-alpha.1) (2020-07-06)
 
 
