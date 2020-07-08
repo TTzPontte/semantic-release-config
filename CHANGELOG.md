@@ -1,3 +1,10 @@
+## [1.1.1-alpha.5](https://github.com/pontte/semantic-release-config/compare/1.1.1-alpha.4...1.1.1-alpha.5) (2020-07-08)
+
+
+### Bug Fixes
+
+* force bump version ([a62f0b9](https://github.com/pontte/semantic-release-config/commit/a62f0b98a66758918d18b981986770a4def27e6f))
+
 ## [1.1.1-alpha.4](https://github.com/pontte/semantic-release-config/compare/1.1.1-alpha.3...1.1.1-alpha.4) (2020-07-08)
 
 
