@@ -35,6 +35,9 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
+      - name: Prepare build
+        run: npm run prepublishOnly
+
       - name: Promote under production version
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}

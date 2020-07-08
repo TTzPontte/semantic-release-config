@@ -15,14 +15,12 @@
   },
   "homepage": "https://github.com/pontte/semantic-release-config#readme",
   "main": "index.js",
-  "files": [
-    "dist/*"
-  ],
   "scripts": {
     "commit": "git-cz",
     "build": "sh scripts/build",
     "test-lint": "echo \"running test-lint script\"",
-    "prepack": "npm run build"
+    "prepublishOnly": "npm run build && sh scripts/prepublish",
+    "postpublish": "sh scripts/postpublish"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
