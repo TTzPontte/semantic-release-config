@@ -1,3 +1,10 @@
+## [1.1.1-alpha.4](https://github.com/pontte/semantic-release-config/compare/1.1.1-alpha.3...1.1.1-alpha.4) (2020-07-08)
+
+
+### Bug Fixes
+
+* change publish preferences ([a4eda66](https://github.com/pontte/semantic-release-config/commit/a4eda6687312fc4cf5c659864ccb59dda89c85f0))
+
 ## [1.1.1-alpha.3](https://github.com/pontte/semantic-release-config/compare/1.1.1-alpha.2...1.1.1-alpha.3) (2020-07-07)
 
 
